@@ -3,5 +3,6 @@ Also it shows how to consume messages from a queue using JMS Client API as well.
 
 To run this sample
 
-1. start the server
+1. start the server(s)
+2. Change URLs in class files.
 2. run ant from here.
