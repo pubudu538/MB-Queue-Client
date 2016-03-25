@@ -64,7 +64,7 @@ public class SampleQueueSender {
         javax.jms.QueueSender queueSender = queueSession.createSender(queue);
 
         int count=0;
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 100; i++) {
             count++;
             queueSender.send(textMessage);
             System.out.println("Message Published and Waiting for 5 seconds - "+count);
